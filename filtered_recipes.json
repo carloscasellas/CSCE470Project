@@ -1,0 +1,134 @@
+[
+    {
+        "url": "https://www.curiouscuisiniere.com/bobotie/",
+        "category": "south african",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp butter"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "medium onions finely chopped"
+            },
+            {
+                "quantity": "3",
+                "unit": "cloves",
+                "ingredient": "of garlic"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "grated fresh ginger or 1/4 tsp ground dry"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "curry powder"
+            },
+            {
+                "quantity": "3",
+                "unit": "cloves",
+                "ingredient": "whole"
+            },
+            {
+                "quantity": "125",
+                "unit": "l",
+                "ingredient": "bs 600g ground beef"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp mrs balls chutney or other peach and/or apricot chutney"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "50g raisins"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "beef stock cube"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp white vinegar"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp worcester sauce"
+            },
+            {
+                "quantity": "2",
+                "unit": "slices",
+                "ingredient": "white crustless bread soaked in milk as needed to moisten"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "egg"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "up 125ml milk"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp double cream or heavy cream optional"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "turmeric"
+            },
+            {
+                "ingredient": "salt and pepper to taste"
+            },
+            {
+                "unit": "slice",
+                "ingredient": "d almonds to sprinkle on top"
+            },
+            {
+                "quantity": "3",
+                "ingredient": "bay leaves citrus leaves to top"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/beef-sosaties/",
+        "category": "south african",
+        "preparation_time": 25,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "ingredient": "beef roast"
+            },
+            {
+                "quantity": "12",
+                "unit": "c",
+                "ingredient": "dried apricots"
+            },
+            {
+                "quantity": "1",
+                "unit": "tb",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "6",
+                "unit": "inch",
+                "ingredient": "barbecue skewers"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tb",
+                "ingredient": "apricot jam"
+            }
+        ]
+    }
+]
