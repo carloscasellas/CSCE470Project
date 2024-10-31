@@ -7,9 +7,8 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Then, install requests and beautifulsoup
+Then, install dependencies
 
 ```
-pip install requests
-pip install beautifulsoup4
+pip install -r requirements.txt
 ```
