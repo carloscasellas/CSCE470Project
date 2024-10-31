@@ -3,14 +3,81 @@ from bs4 import BeautifulSoup
 import time
 import json
 import re
+import string
 
 BASE_URL = "https://www.curiouscuisiniere.com"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
 }
 
-units = set({"tbsp", "tsp", "g", "cups", "cup", "oz", "c", "teaspoon", "ounces", "tablespoons", "grams", "kg", "kilograms"})
+units = set(
+    {
+        "teaspoon",
+        "teaspoons",
+        "tsp",
+        "t",
+        "tablespoon",
+        "tablespoons",
+        "tbsp",
+        "T",
+        "c",
+        "cup",
+        "cups",
+        "pint",
+        "pints",
+        "pt",
+        "quart",
+        "quarts",
+        "qt",
+        "gallon",
+        "gallons",
+        "gal",
+        "milliliter",
+        "milliliters",
+        "ml",
+        "liter",
+        "liters",
+        "l",
+        "ounce",
+        "ounces",
+        "oz",
+        "pound",
+        "pounds",
+        "lb",
+        "lbs",
+        "gram",
+        "grams",
+        "g",
+        "kilogram",
+        "kilograms",
+        "kg",
+        "pinch",
+        "dash",
+        "clove",
+        "cloves",
+        "slice",
+        "slices",
+        "package",
+        "packages",
+        "pkg",
+        "can",
+        "cans",
+        "stick",
+        "sticks",
+        "piece",
+        "pieces",
+        "drop",
+        "drops",
+        "bunch",
+        "bunches",
+        "head",
+        "heads",
+        # Add more as needed
+    }
+)
+
 symbols = set({"+", "-", "*"})
+
 
 def get_soup(url):
     response = requests.get(url, headers=HEADERS)
@@ -20,17 +87,19 @@ def get_soup(url):
         print(f"Failed to fetch {url}: Status code {response.status_code}")
         return None
 
+
 def parse_category(category):
-    
+
     category = category.lower()
-    
+
     if "recipes from" in category:
         category = category.replace("recipes from", "").strip()
-        
+
     if "recipes" in category:
         category = category.replace("recipes", "").strip()
-        
+
     return category
+
 
 def extract_category(soup):
     breadcrumbs = soup.find("p", {"class": "breadcrumbs"})
@@ -40,78 +109,130 @@ def extract_category(soup):
             return parse_category(category[-1])
     return "Unknown"
 
+
 def turn_to_minutes(text):
     minutes = 0
     contents = text.split(" ")
     for i in range(len(contents)):
-        if contents[i] == "hour" or contents[i] == "hours" or contents[i] == "hr" or contents[i] == "hrs":
-            minutes += int(contents[i-1]) * 60
-        if contents[i] == "minute" or contents[i] == "minutes" or contents[i] == "min" or contents[i] == "mins":
-            minutes += int(contents[i-1])
+        if (
+            contents[i] == "hour"
+            or contents[i] == "hours"
+            or contents[i] == "hr"
+            or contents[i] == "hrs"
+        ):
+            minutes += int(contents[i - 1]) * 60
+        if (
+            contents[i] == "minute"
+            or contents[i] == "minutes"
+            or contents[i] == "min"
+            or contents[i] == "mins"
+        ):
+            minutes += int(contents[i - 1])
     return minutes
+
 
 def extract_time(soup):
     time_tag = soup.find("span", {"class": "mv-time-part"})  # Adjust class if needed
     if time_tag:
         return turn_to_minutes(time_tag.get_text().strip())
     elif soup.find("span", {"class": "wprm-recipe-total_time"}):
-        return turn_to_minutes(soup.find("span", {"class": "wprm-recipe-total_time"}).get_text().strip())
-        
+        return turn_to_minutes(
+            soup.find("span", {"class": "wprm-recipe-total_time"}).get_text().strip()
+        )
+
     return "N/A"
 
+
+def trim_ingredient(ingr):
+    # Remove special characters and convert fractions to decimals
+    ingr = ingr.lower()
+    ingr = ingr.replace("½", "1/2")
+    ingr = ingr.replace("¼", "1/4")
+    ingr = ingr.replace("¾", "3/4")
+    ingr = ingr.replace("⅓", "1/3")
+    ingr = ingr.replace("⅔", "2/3")
+    ingr = ingr.replace("⅛", "1/8")
+    ingr = ingr.replace("⅜", "3/8")
+    ingr = ingr.replace("⅝", "5/8")
+    ingr = ingr.replace("⅞", "7/8")
+
+    ingr = ingr.strip()
+
+    punc = string.punctuation.replace("/", "").replace("-", "")
+
+    translator = str.maketrans("", "", punc)
+    ingr = ingr.translate(translator)
+
+    return ingr
+
+
 def parse_ingredient(ingredient):
-    text = ingredient.lower().split(" ")
-    indices = set()
-    for i in range(len(text)):
-        if text[i] in units:
-            indices.add(i)
-            indices.add(i - 1)
-            
-        if len(text[i]) > 0 and text[i][0] == "(":
-            for j in range(i, len(text)):
-                indices.add(j)
-                        
-        if len(text[i]) > 0 and text[i][-1] == ",":
-            for j in range(i + 1, len(text)):
-                indices.add(j)
-            text[i] = text[i][0:-1]
-            
-        if len(text[i]) > 0 and text[i][0].isdigit():
-            indices.add(i)
-        
-        if len(text[i]) > 0 and text[i][0] in symbols:
-            text[i] = text[i][1:]
-        
-        if len(text[i]) > 0 and text[i][-1] in symbols:
-            text[i] = text[i][:-1]
-            
-        if len(text[i]) > 0 and any(ord(char) > 127 for char in text[i]):
-            indices.add(i)
-    
-    newText = []
-    
-    for i in range(len(text)):
-        if not (i in indices):
-            newText.append(text[i])
-    
-    return " ".join(newText)
-    
+    # print("parsing ingredient: ", ingredient)
+    ingredient = trim_ingredient(ingredient)
+
+    # regex pattern to extract quantity, unit and ingredient from the same string
+    pattern = (
+        r"""(?P<quantity>
+                (?:\d+\s?\d?/\d+|\d+|\d*\.\d+)          
+                (?:\s*-\s*(?:\d+\s?\d?/\d+|\d+|\d*\.\d+))?
+              )?
+              \s?
+              (?P<unit>{})?
+              \s?
+              (?P<ingredient>.+)
+           """.format(
+            "|".join(units)
+        )
+        .replace("\n", "")
+        .replace(" ", "")
+    )
+
+    match = re.match(pattern, ingredient)
+    if match:
+        dict_match = match.groupdict()
+        dict_match = {k: v for k, v in dict_match.items() if v is not None}
+
+        return dict(dict_match)
+
+    return None
+
+
 def extract_ingredients(soup):
-    words = set()
     ingredients_section = soup.find("div", {"class": "mv-create-ingredients"})
-        
+
+    ingredients_list = []
+
     if ingredients_section:
-        ingredients_list = ingredients_section.find_all('li')
-        for item in ingredients_list:
-            parsed_ingredient = parse_ingredient(item.get_text().strip())
-            words.update(parsed_ingredient.split())
-        return list(words)
+        ingredients_list = ingredients_section.find_all("li")
+        ingredients_list = [
+            parse_ingredient(item.get_text()) for item in ingredients_list
+        ]
     elif soup.find("ul", {"class": "wprm-recipe-ingredients"}):
-        ingredients_list = soup.find_all("span", {"class": "wprm-recipe-ingredient-name"})
-        for item in ingredients_list:
-            parsed_ingredient = parse_ingredient(item.get_text().strip())
-            words.update(parsed_ingredient.split())
-        return list(words)
+        ingredient_names = soup.find_all(
+            "span", {"class": "wprm-recipe-ingredient-name"}
+        )
+        ingredient_amounts = soup.find_all(
+            "span", {"class": "wprm-recipe-ingredient-amount"}
+        )
+        ingredients_units = soup.find_all(
+            "span", {"class": "wprm-recipe-ingredient-unit"}
+        )
+
+        ingredients_list = [
+            {
+                "quantity": trim_ingredient(amount.get_text()),
+                "unit": trim_ingredient(unit.get_text()),
+                "ingredient": trim_ingredient(name.get_text()),
+            }
+            for amount, unit, name in zip(
+                ingredient_amounts, ingredients_units, ingredient_names
+            )
+        ]
+
+    # print("ingredients_list: ", ingredients_list)
+
+    return ingredients_list
+
 
 def extract_recipe_data(recipe_url):
     soup = get_soup(recipe_url)
@@ -129,15 +250,20 @@ def extract_recipe_data(recipe_url):
         return recipe_data
     return None
 
+
 def scrape_recipes(recipe_urls):
     all_recipes = []
+    all_ingredient_names = set()
     for url in recipe_urls:
         print("Scraping " + url)
         data = extract_recipe_data(url)
         if data:
             all_recipes.append(data)
+            for ingredient in data["ingredients"]:
+                all_ingredient_names.add(ingredient["ingredient"])
         time.sleep(2)
-    return all_recipes
+    return (all_recipes, all_ingredient_names)
+
 
 def find_recipe_urls(page_urls):
     recipe_urls = []
@@ -150,52 +276,56 @@ def find_recipe_urls(page_urls):
     return scrape_recipes(recipe_urls)
 
 
-page_urls = [
-    "https://www.curiouscuisiniere.com/africa/",
-    "https://www.curiouscuisiniere.com/africa/page/2/",
-    "https://www.curiouscuisiniere.com/europe/british/",
-    "https://www.curiouscuisiniere.com/europe/british/page/2/",
-    "https://www.curiouscuisiniere.com/north-america/caribbean/",
-    "https://www.curiouscuisiniere.com/asia/chinese/",
-    "https://www.curiouscuisiniere.com/asia/chinese/page/2/",
-    "https://www.curiouscuisiniere.com/europe/french/",
-    "https://www.curiouscuisiniere.com/europe/french/page/2/",
-    "https://www.curiouscuisiniere.com/europe/french/page/3/",
-    "https://www.curiouscuisiniere.com/europe/french/page/4/",
-    "https://www.curiouscuisiniere.com/europe/german/",
-    "https://www.curiouscuisiniere.com/europe/german/page/2/",
-    "https://www.curiouscuisiniere.com/europe/greek/",
-    "https://www.curiouscuisiniere.com/europe/greek/page/2/",
-    "https://www.curiouscuisiniere.com/asia/indian/",
-    "https://www.curiouscuisiniere.com/asia/indian/page/2/",
-    "https://www.curiouscuisiniere.com/europe/italian/",
-    "https://www.curiouscuisiniere.com/europe/italian/page/2/",
-    "https://www.curiouscuisiniere.com/europe/italian/page/3/",
-    "https://www.curiouscuisiniere.com/europe/italian/page/4/",
-    "https://www.curiouscuisiniere.com/europe/italian/page/5/",
-    "https://www.curiouscuisiniere.com/asia/japanese/",
-    "https://www.curiouscuisiniere.com/north-america/mexican/",
-    "https://www.curiouscuisiniere.com/north-america/mexican/page/2/",
-    "https://www.curiouscuisiniere.com/north-america/mexican/page/3/",
-    "https://www.curiouscuisiniere.com/europe/polish/",
-    "https://www.curiouscuisiniere.com/asia/southeast-asia/thai/",
-    "https://www.curiouscuisiniere.com/north-america/american/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/2/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/3/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/4/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/5/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/6/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/7/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/8/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/9/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/10/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/11/",
-    "https://www.curiouscuisiniere.com/north-america/american/page/12/",
-]
+if __name__ == "__main__":
+    page_urls = [
+        "https://www.curiouscuisiniere.com/africa/",
+        "https://www.curiouscuisiniere.com/africa/page/2/",
+        "https://www.curiouscuisiniere.com/europe/british/",
+        "https://www.curiouscuisiniere.com/europe/british/page/2/",
+        "https://www.curiouscuisiniere.com/north-america/caribbean/",
+        "https://www.curiouscuisiniere.com/asia/chinese/",
+        "https://www.curiouscuisiniere.com/asia/chinese/page/2/",
+        "https://www.curiouscuisiniere.com/europe/french/",
+        "https://www.curiouscuisiniere.com/europe/french/page/2/",
+        "https://www.curiouscuisiniere.com/europe/french/page/3/",
+        "https://www.curiouscuisiniere.com/europe/french/page/4/",
+        "https://www.curiouscuisiniere.com/europe/german/",
+        "https://www.curiouscuisiniere.com/europe/german/page/2/",
+        "https://www.curiouscuisiniere.com/europe/greek/",
+        "https://www.curiouscuisiniere.com/europe/greek/page/2/",
+        "https://www.curiouscuisiniere.com/asia/indian/",
+        "https://www.curiouscuisiniere.com/asia/indian/page/2/",
+        "https://www.curiouscuisiniere.com/europe/italian/",
+        "https://www.curiouscuisiniere.com/europe/italian/page/2/",
+        "https://www.curiouscuisiniere.com/europe/italian/page/3/",
+        "https://www.curiouscuisiniere.com/europe/italian/page/4/",
+        "https://www.curiouscuisiniere.com/europe/italian/page/5/",
+        "https://www.curiouscuisiniere.com/asia/japanese/",
+        "https://www.curiouscuisiniere.com/north-america/mexican/",
+        "https://www.curiouscuisiniere.com/north-america/mexican/page/2/",
+        "https://www.curiouscuisiniere.com/north-america/mexican/page/3/",
+        "https://www.curiouscuisiniere.com/europe/polish/",
+        "https://www.curiouscuisiniere.com/asia/southeast-asia/thai/",
+        "https://www.curiouscuisiniere.com/north-america/american/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/2/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/3/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/4/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/5/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/6/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/7/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/8/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/9/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/10/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/11/",
+        "https://www.curiouscuisiniere.com/north-america/american/page/12/",
+    ]
 
-scraped_data = find_recipe_urls(page_urls)
+    (scraped_data, all_ingredients) = find_recipe_urls(page_urls)
 
-with open("recipes.json", "w") as f:
-    json.dump(scraped_data, f, indent=4)
+    with open("recipes.json", "w") as f:
+        json.dump(scraped_data, f, indent=4)
 
-print("Scraping completed")
+    with open("ingredients.json", "w") as f:
+        json.dump(list(all_ingredients), f, indent=4)
+
+    print("Scraping completed")
