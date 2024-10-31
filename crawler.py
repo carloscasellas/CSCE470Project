@@ -20,21 +20,33 @@ def get_soup(url):
         print(f"Failed to fetch {url}: Status code {response.status_code}")
         return None
 
+def parse_category(category):
+    
+    category = category.lower()
+    
+    if "recipes from" in category:
+        category = category.replace("recipes from", "").strip()
+        
+    if "recipes" in category:
+        category = category.replace("recipes", "").strip()
+        
+    return category
+
 def extract_category(soup):
     breadcrumbs = soup.find("p", {"class": "breadcrumbs"})
     if breadcrumbs:
         category = [crumb.get_text().strip() for crumb in breadcrumbs.find_all("a")]
         if len(category) > 1:
-            return category[-1]
+            return parse_category(category[-1])
     return "Unknown"
 
 def turn_to_minutes(text):
     minutes = 0
     contents = text.split(" ")
     for i in range(len(contents)):
-        if contents[i] == "hour" or contents[i] == "hours":
+        if contents[i] == "hour" or contents[i] == "hours" or contents[i] == "hr" or contents[i] == "hrs":
             minutes += int(contents[i-1]) * 60
-        if contents[i] == "minute" or contents[i] == "minutes":
+        if contents[i] == "minute" or contents[i] == "minutes" or contents[i] == "min" or contents[i] == "mins":
             minutes += int(contents[i-1])
     return minutes
 
@@ -42,6 +54,8 @@ def extract_time(soup):
     time_tag = soup.find("span", {"class": "mv-time-part"})  # Adjust class if needed
     if time_tag:
         return turn_to_minutes(time_tag.get_text().strip())
+    elif soup.find("span", {"class": "wprm-recipe-total_time"}):
+        return turn_to_minutes(soup.find("span", {"class": "wprm-recipe-total_time"}).get_text().strip())
         
     return "N/A"
 
@@ -53,16 +67,16 @@ def parse_ingredient(ingredient):
             indices.add(i)
             indices.add(i - 1)
             
-        if text[i][0] == "(":
+        if len(text[i]) > 0 and text[i][0] == "(":
             for j in range(i, len(text)):
                 indices.add(j)
                         
-        if text[i][-1] == ",":
+        if len(text[i]) > 0 and text[i][-1] == ",":
             for j in range(i + 1, len(text)):
                 indices.add(j)
             text[i] = text[i][0:-1]
             
-        if text[i][0].isdigit():
+        if len(text[i]) > 0 and text[i][0].isdigit():
             indices.add(i)
         
         if len(text[i]) > 0 and text[i][0] in symbols:
@@ -70,6 +84,9 @@ def parse_ingredient(ingredient):
         
         if len(text[i]) > 0 and text[i][-1] in symbols:
             text[i] = text[i][:-1]
+            
+        if len(text[i]) > 0 and any(ord(char) > 127 for char in text[i]):
+            indices.add(i)
     
     newText = []
     
@@ -82,8 +99,15 @@ def parse_ingredient(ingredient):
 def extract_ingredients(soup):
     words = set()
     ingredients_section = soup.find("div", {"class": "mv-create-ingredients"})
+        
     if ingredients_section:
         ingredients_list = ingredients_section.find_all('li')
+        for item in ingredients_list:
+            parsed_ingredient = parse_ingredient(item.get_text().strip())
+            words.update(parsed_ingredient.split())
+        return list(words)
+    elif soup.find("ul", {"class": "wprm-recipe-ingredients"}):
+        ingredients_list = soup.find_all("span", {"class": "wprm-recipe-ingredient-name"})
         for item in ingredients_list:
             parsed_ingredient = parse_ingredient(item.get_text().strip())
             words.update(parsed_ingredient.split())
@@ -108,24 +132,68 @@ def extract_recipe_data(recipe_url):
 def scrape_recipes(recipe_urls):
     all_recipes = []
     for url in recipe_urls:
+        print("Scraping " + url)
         data = extract_recipe_data(url)
         if data:
             all_recipes.append(data)
         time.sleep(2)
     return all_recipes
 
-# TODO: Extract URLs from site directly
-example_urls = [
-    "https://www.curiouscuisiniere.com/chicken-pastilla-moroccan-chicken-pie/",
-    "https://www.curiouscuisiniere.com/har-gow-shrimp-dumplings/",
-    "https://www.curiouscuisiniere.com/pavlova-wreath/",
-    "https://www.curiouscuisiniere.com/honduran-baleadas/",
-    "https://www.curiouscuisiniere.com/whole-wheat-pita-bread/",
-    "https://www.curiouscuisiniere.com/liptauer-cheese-spread/",
-    "https://www.curiouscuisiniere.com/ecuadorian-shrimp-ceviche/",
+def find_recipe_urls(page_urls):
+    recipe_urls = []
+    for url in page_urls:
+        soup = get_soup(url)
+        titles = soup.find_all("h2", {"class": "excerpt-title"})
+        for title in titles:
+            link = title.find("a", href=True)
+            recipe_urls.append(link["href"])
+    return scrape_recipes(recipe_urls)
+
+
+page_urls = [
+    "https://www.curiouscuisiniere.com/africa/",
+    "https://www.curiouscuisiniere.com/africa/page/2/",
+    "https://www.curiouscuisiniere.com/europe/british/",
+    "https://www.curiouscuisiniere.com/europe/british/page/2/",
+    "https://www.curiouscuisiniere.com/north-america/caribbean/",
+    "https://www.curiouscuisiniere.com/asia/chinese/",
+    "https://www.curiouscuisiniere.com/asia/chinese/page/2/",
+    "https://www.curiouscuisiniere.com/europe/french/",
+    "https://www.curiouscuisiniere.com/europe/french/page/2/",
+    "https://www.curiouscuisiniere.com/europe/french/page/3/",
+    "https://www.curiouscuisiniere.com/europe/french/page/4/",
+    "https://www.curiouscuisiniere.com/europe/german/",
+    "https://www.curiouscuisiniere.com/europe/german/page/2/",
+    "https://www.curiouscuisiniere.com/europe/greek/",
+    "https://www.curiouscuisiniere.com/europe/greek/page/2/",
+    "https://www.curiouscuisiniere.com/asia/indian/",
+    "https://www.curiouscuisiniere.com/asia/indian/page/2/",
+    "https://www.curiouscuisiniere.com/europe/italian/",
+    "https://www.curiouscuisiniere.com/europe/italian/page/2/",
+    "https://www.curiouscuisiniere.com/europe/italian/page/3/",
+    "https://www.curiouscuisiniere.com/europe/italian/page/4/",
+    "https://www.curiouscuisiniere.com/europe/italian/page/5/",
+    "https://www.curiouscuisiniere.com/asia/japanese/",
+    "https://www.curiouscuisiniere.com/north-america/mexican/",
+    "https://www.curiouscuisiniere.com/north-america/mexican/page/2/",
+    "https://www.curiouscuisiniere.com/north-america/mexican/page/3/",
+    "https://www.curiouscuisiniere.com/europe/polish/",
+    "https://www.curiouscuisiniere.com/asia/southeast-asia/thai/",
+    "https://www.curiouscuisiniere.com/north-america/american/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/2/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/3/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/4/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/5/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/6/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/7/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/8/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/9/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/10/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/11/",
+    "https://www.curiouscuisiniere.com/north-america/american/page/12/",
 ]
 
-scraped_data = scrape_recipes(example_urls)
+scraped_data = find_recipe_urls(page_urls)
 
 with open("recipes.json", "w") as f:
     json.dump(scraped_data, f, indent=4)
