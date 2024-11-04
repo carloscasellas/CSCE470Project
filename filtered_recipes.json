@@ -1,5 +1,2331 @@
 [
     {
+        "url": "https://www.curiouscuisiniere.com/chorizo-torta-mexican-sandwich/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "3",
+                "unit": "t",
+                "ingredient": "bsp refried pinto beans approx or a little more - or refried black beans"
+            },
+            {
+                "quantity": "2 1/2",
+                "unit": "oz",
+                "ingredient": "mexican chorizo approx - if in the casing remove from casing"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "bolillo roll or telera/small baguette-style roll"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp cotija cheese approx - or use another mexican cheese like oaxaca"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "omato"
+            },
+            {
+                "ingredient": "optional additions a few slices of avocado some shredded lettuce pickled red onion slices"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/agua-fresca-strawberry-water/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "up strawberries"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "up water"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp sugar"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "lime juice"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pork-carnitas/",
+        "category": "mexican",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp lard bacon fat or butter"
+            },
+            {
+                "quantity": "2",
+                "unit": "l",
+                "ingredient": "b pork shoulder or butt well marbled with fat cut into large chunks roughly 4 inch"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "organic oranges halved"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "innamon stick broken into 2 pieces"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp oregano"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "l",
+                "ingredient": "arge yellow onion diced"
+            },
+            {
+                "quantity": "4",
+                "unit": "g",
+                "ingredient": "arlic cloves minced"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chilaquiles-rojos/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "salsa"
+            },
+            {
+                "quantity": "10",
+                "unit": "c",
+                "ingredient": "orn tortillas cut into 1/6ths"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "oil"
+            },
+            {
+                "quantity": "5",
+                "unit": "oz",
+                "ingredient": "queso fresco for topping"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "mexican crema or sour cream optional for topping"
+            },
+            {
+                "ingredient": "avocado red onions cilantro optional for topping"
+            },
+            {
+                "quantity": "6-8",
+                "ingredient": "eggs fried optional for serving"
+            },
+            {
+                "unit": "c",
+                "ingredient": "ooked black beans or refried beans optional for serving"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chorizo-and-potato-gorditas/",
+        "category": "mexican",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "3",
+                "unit": "c",
+                "ingredient": "masa harina"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "baking powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp vegetable oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "warm water more as needed"
+            },
+            {
+                "quantity": "2",
+                "unit": "l",
+                "ingredient": "bs yukon gold potatoes cut into 1/4 inch cubes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "14",
+                "unit": "oz",
+                "ingredient": "mexican chorizo"
+            },
+            {
+                "quantity": "5",
+                "unit": "oz",
+                "ingredient": "queso fresco"
+            },
+            {
+                "ingredient": "salt to taste"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/esquites-mexican-street-corn-salad/",
+        "category": "mexican",
+        "preparation_time": 15,
+        "ingredients": [
+            {
+                "quantity": "6",
+                "ingredient": "ears of sweetcorn shucked and cleaned of silk"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp butter"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "l",
+                "ingredient": "arge onion minced"
+            },
+            {
+                "quantity": "6",
+                "unit": "t",
+                "ingredient": "bsp mayonnaise"
+            },
+            {
+                "quantity": "3",
+                "unit": "t",
+                "ingredient": "bsp lime juice about 1 large lime juiced"
+            },
+            {
+                "quantity": "6",
+                "unit": "oz",
+                "ingredient": "queso fresco"
+            },
+            {
+                "unit": "c",
+                "ingredient": "hili powder"
+            },
+            {
+                "ingredient": "hot sauce"
+            },
+            {
+                "unit": "c",
+                "ingredient": "ilantro to garnish"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mango-paletas/",
+        "category": "mexican",
+        "preparation_time": 240,
+        "ingredients": [
+            {
+                "quantity": "3",
+                "unit": "cups",
+                "ingredient": "diced mango"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "4",
+                "unit": "tbsp",
+                "ingredient": "sugar"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/baked-chiles-rellenos/",
+        "category": "mexican",
+        "preparation_time": 52,
+        "ingredients": [
+            {
+                "quantity": "6",
+                "unit": "large",
+                "ingredient": "poblano chiles"
+            },
+            {
+                "quantity": "12",
+                "unit": "oz",
+                "ingredient": "fresh chorizo"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "shredded chihuahua cheese"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "cooked rice"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "sour cream"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "milk"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "salsa"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/spanish-rice/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "dry  rice rinsed and drained"
+            },
+            {
+                "quantity": "1/2",
+                "ingredient": "onion diced"
+            },
+            {
+                "quantity": "2",
+                "unit": "cloves",
+                "ingredient": "garlic minced"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "14 oz can  diced tomatoes undrained"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "chicken or vegetable stock warmed"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "mixed vegetables peas corn diced carrots"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mexican-christmas-eve-salad/",
+        "category": "mexican",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "head",
+                "ingredient": "romaine lettuce"
+            },
+            {
+                "quantity": "2",
+                "unit": "medium",
+                "ingredient": "beets"
+            },
+            {
+                "quantity": "1",
+                "unit": "very ripe",
+                "ingredient": "plantain"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "jicama"
+            },
+            {
+                "quantity": "1",
+                "unit": "large sweet",
+                "ingredient": "apple"
+            },
+            {
+                "quantity": "1",
+                "unit": "large",
+                "ingredient": "orange"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "peanuts"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "pomegranate arils"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "orange juice"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "red wine vinegar"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "fresh mint"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "salt"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/guacamole/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "avocado"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "white onion"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "small serrano or jalapeno chili"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "fresh cilantro"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "dash",
+                "ingredient": "salt"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pumpkin-pie-empanadas/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "unbleached all purpose flour"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "white whole wheat flour"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "ice cold water"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "egg"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "pumpkin puree"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "brown sugar or piloncillo"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "heavy cream or half and half"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tbsp",
+                "ingredient": "ground allspice"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/enchiladas-potosinas/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "ingredient": "dried ancho chilies seeded and stems removed"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "hot water"
+            },
+            {
+                "quantity": "1",
+                "unit": "g",
+                "ingredient": "arlic clove minced"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "masa harina"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "omato diced and drained roughly 1 c"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "jalapeno pepper seeded de-veined and diced"
+            },
+            {
+                "quantity": "1/2",
+                "ingredient": "small onion minced"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "8",
+                "unit": "oz",
+                "ingredient": "queso fresco"
+            },
+            {
+                "unit": "c",
+                "ingredient": "hopped fresh cilantro"
+            },
+            {
+                "ingredient": "avocado slices"
+            },
+            {
+                "ingredient": "diced onion"
+            },
+            {
+                "ingredient": "queso fresco"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chicken-cheese-entomatadas/",
+        "category": "mexican",
+        "preparation_time": 45,
+        "ingredients": [
+            {
+                "quantity": "8",
+                "unit": "oz 2 c",
+                "ingredient": "queso fresco"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "cooked chicken breast"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "lbs",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "jalapenos"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pork-flautas/",
+        "category": "mexican",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "oil"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "green pepper"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "pork steaks"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "tomato"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "parsley"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "pinch",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "c",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "6",
+                "ingredient": "oregano"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/capirotada-mexican-bread-pudding/",
+        "category": "mexican",
+        "preparation_time": 35,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "packed brown sugar or grated piloncillo"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "arge cinnamon stick"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "arge whole clove"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "l",
+                "ingredient": "oaf french bread sliced 1/2 inch thick"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "b butter melted"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "raisins or dried fruit of choice"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "peanuts or nut of choice"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "oz",
+                "ingredient": "cotija or queso fresco cheese or shredded monterey jack or muenster"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/strawberry-mole-sauce/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "chicken breast"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "salt and pepper"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "dried ancho chiles"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "dried guajillo chiles"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "whole almonds"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "corn tortilla"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "canola oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion slices"
+            },
+            {
+                "quantity": "2",
+                "unit": "additional",
+                "ingredient": "garlic clove"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/roast-duck-with-mole-sauce/",
+        "category": "mexican",
+        "preparation_time": 180,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "ancho chili powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "cocoa powder"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "3 lb",
+                "ingredient": "duck"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "ancho and apricot mole"
+            },
+            {
+                "quantity": "3",
+                "unit": "c",
+                "ingredient": "ancho chilies"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "dried apricots"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1/3",
+                "unit": "tbsp",
+                "ingredient": "almonds"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "fresh breadcrumbs"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "chicken or vegetable stock"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "vegetable oil"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/calabaza-en-tacha-mexican-candied-pumpkin/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2 1/2",
+                "unit": "lb",
+                "ingredient": "pumpkin"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "piloncillo"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/day-of-the-dead-bread/",
+        "category": "mexican",
+        "preparation_time": 180,
+        "ingredients": [
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "milk"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "2 1/2",
+                "unit": "- 3 c",
+                "ingredient": "unbleached all purpose flour"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "sugar"
+            },
+            {
+                "quantity": "2 1/4",
+                "unit": "tsp",
+                "ingredient": "active dry yeast"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "ground anise"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "2",
+                "unit": "large",
+                "ingredient": "eggs"
+            },
+            {
+                "quantity": "1",
+                "unit": "small",
+                "ingredient": "egg"
+            },
+            {
+                "quantity": "1",
+                "unit": "c  1 tbsp",
+                "ingredient": "orange"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mexican-atole/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "masa harina not cornmeal"
+            },
+            {
+                "quantity": "3",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "milk 2 or whole"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "grated  piloncillo  or brown sugar more if desired"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "pure vanilla extract"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/red-enchilada-sauce/",
+        "category": "mexican",
+        "preparation_time": 20,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "6 oz can",
+                "ingredient": "tomato paste"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "unbleached all-purpose flour"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "onion powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "garlic powder"
+            },
+            {
+                "quantity": "3",
+                "unit": "c",
+                "ingredient": "chicken beef or vegetable broth"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chicken-tortilla-soup/",
+        "category": "mexican",
+        "preparation_time": 360,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "ingredient": "chicken breasts"
+            },
+            {
+                "quantity": "2",
+                "unit": "145 oz cans",
+                "ingredient": "diced tomatoes"
+            },
+            {
+                "quantity": "1",
+                "unit": "small",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "corn"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "black beans"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "pinto beans"
+            },
+            {
+                "quantity": "1",
+                "unit": "small",
+                "ingredient": "green pepper"
+            },
+            {
+                "quantity": "2",
+                "unit": "small",
+                "ingredient": "jalapenos"
+            },
+            {
+                "quantity": "4",
+                "unit": "c",
+                "ingredient": "chicken stock"
+            },
+            {
+                "quantity": "4",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "lime"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "ingredient": "cornmeal"
+            },
+            {
+                "quantity": "3",
+                "unit": "tsp",
+                "ingredient": "taco seasoning"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/corn-tortillas/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "masa harina"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "water"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/quick-pozole-blanco/",
+        "category": "mexican",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salted butter"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "garlic clove"
+            },
+            {
+                "quantity": "2 1/2",
+                "unit": "15 oz cans",
+                "ingredient": "chicken stock"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "cooked pork roast or shoulder"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pumpkin-mole/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "1/4",
+                "unit": "medium",
+                "ingredient": "pie pumpkin"
+            },
+            {
+                "quantity": "2",
+                "unit": "dry",
+                "ingredient": "ancho chilies"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "almonds"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "canola oil"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "white onion"
+            },
+            {
+                "quantity": "3",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "pinch",
+                "ingredient": "tomato"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "salt"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/basic-tomato-salsa-canning/",
+        "category": "mexican",
+        "preparation_time": 360,
+        "ingredients": [
+            {
+                "quantity": "9",
+                "unit": "lbs",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "lg green peppers"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "med white onions"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/3",
+                "unit": "tsp",
+                "ingredient": "hot pepper"
+            },
+            {
+                "quantity": "1/3",
+                "unit": "oz",
+                "ingredient": "white vinegar"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chili-lime-margarita/",
+        "category": "mexican",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "6",
+                "unit": "oz 3/4 c",
+                "ingredient": "silver tequila"
+            },
+            {
+                "quantity": "6",
+                "unit": "oz 3/4 c",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "2",
+                "unit": "oz 1/4 c",
+                "ingredient": "triple sec"
+            },
+            {
+                "quantity": "2",
+                "unit": "inches",
+                "ingredient": "jalapeno"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "sugar"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/black-bean-and-rice-stuffed-poblanos/",
+        "category": "mexican",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "unit": "medium",
+                "ingredient": "poblano peppers"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c cooked",
+                "ingredient": "black beans"
+            },
+            {
+                "quantity": "1 1/3",
+                "unit": "c cooked",
+                "ingredient": "rice"
+            },
+            {
+                "quantity": "1",
+                "unit": "c diced",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "fresh cilantro"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "cumin"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/homemade-hot-sauce/",
+        "category": "mexican",
+        "preparation_time": 25,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "large",
+                "ingredient": "red jalapeno"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "garlic cloves"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/venison-mole-rojo/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "6",
+                "unit": "medium",
+                "ingredient": "dried ancho chile peppers"
+            },
+            {
+                "quantity": "1",
+                "unit": "large",
+                "ingredient": "dried guajillo chile pepper"
+            },
+            {
+                "quantity": "4",
+                "unit": "large",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "raisins"
+            },
+            {
+                "quantity": "1",
+                "unit": "medium",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "almonds"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "peanuts"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "oregano"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "thyme"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "ground cloves"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c  2 tbsp",
+                "ingredient": "reserved chili soaking liquid"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "cacao powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "piloncillo"
+            },
+            {
+                "quantity": "2",
+                "unit": "lbs",
+                "ingredient": "water"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/jicama-salsa/",
+        "category": "mexican",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "jicama root"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "pineapple chunks"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "vidalia onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "red bell pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "pineapple juice"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "parsley"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "lb",
+                "ingredient": "red pepper flakes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "white fish"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tbsp",
+                "ingredient": "shrimp"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "large",
+                "ingredient": "red pepper flakes"
+            },
+            {
+                "quantity": "4",
+                "unit": "c",
+                "ingredient": "romaine leaves"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/fish-tacos-with-lime-salsa/",
+        "category": "mexican",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "sour cream"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "2",
+                "unit": "large",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "red onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "jalapeno"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "fresh cilantro"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "lime"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "garlic powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "6 inch",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "white fish fillets"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/refried-beans/",
+        "category": "mexican",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb 2 c",
+                "ingredient": "pinto beans"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/fish-tacos-with-lime-salsa/",
+        "category": "mexican",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "sour cream"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "lime juice"
+            },
+            {
+                "quantity": "2",
+                "unit": "large",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "red onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "jalapeno"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "fresh cilantro"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "lime"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "chili powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "garlic powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "6 inch",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "white fish fillets"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/tunisian-spicy-tuna-sandwich/",
+        "category": "northern africa",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "ingredient": "eggs"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "medium sized potatoes"
+            },
+            {
+                "quantity": "4",
+                "ingredient": "mini buns palm size around 12cm/45 inches in length or 2 baguettes around 20cm/8 inches in length"
+            },
+            {
+                "quantity": "2",
+                "unit": "cans",
+                "ingredient": "tuna around 300g/105 oz total"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "up green olives sliced"
+            },
+            {
+                "quantity": "8",
+                "unit": "slices",
+                "ingredient": "of preserved lemon finely chopped"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp harissa paste"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp paprika powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp tomato paste"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp vegetable oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp lemon juice"
+            },
+            {
+                "quantity": "1-2",
+                "unit": "tsp",
+                "ingredient": "salt to taste"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/tunisian-lablabi/",
+        "category": "northern africa",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "up dried chickpeas"
+            },
+            {
+                "ingredient": "water for soaking"
+            },
+            {
+                "quantity": "3",
+                "unit": "cups",
+                "ingredient": "water for cooking"
+            },
+            {
+                "quantity": "1",
+                "unit": "clove",
+                "ingredient": "garlic crushed or grated"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp lemon juice"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp extra virgin olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "clove",
+                "ingredient": "garlic crushed or grated"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp harissa"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "2",
+                "unit": "slices",
+                "ingredient": "of stale bread"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "egg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/hawawshi/",
+        "category": "northern africa",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "3",
+                "ingredient": "baladi bread or pita pockets"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "l",
+                "ingredient": "arge onion or 1/2 of a small/medium onion finely chopped"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "g",
+                "ingredient": "reen pepper finely chopped"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "omato finely chopped"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "small clove garlic minced"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "l",
+                "ingredient": "b ground beef 80 - dont use lean for this"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp chopped parsley"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "coriander"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "allspice"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "cardamom"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "pepper"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/jollof-rice-ghana/",
+        "category": "western africa",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "750",
+                "unit": "t",
+                "ingredient": "o 800g 1 1/3 lbs lamb or beef"
+            },
+            {
+                "quantity": "1/2",
+                "ingredient": "an onion"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "scotch bonnet pepper habanero is a good substitute"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "bouillon cube"
+            },
+            {
+                "quantity": "3",
+                "ingredient": "whole cloves roughly 1/4 tsp ground"
+            },
+            {
+                "quantity": "4",
+                "unit": "tablespoon",
+                "ingredient": "oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "arge onion diced"
+            },
+            {
+                "quantity": "2",
+                "unit": "cloves",
+                "ingredient": "garlic minced"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "inch fresh ginger grated"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "scotch bonnet pepper habanero pepper chopped"
+            },
+            {
+                "quantity": "1",
+                "unit": "tablespoon",
+                "ingredient": "tomato puree tomato paste"
+            },
+            {
+                "quantity": "6",
+                "unit": "l",
+                "ingredient": "arge fresh tomatoes or 1 and 1/2 cans of tomato chopped"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "seasoning cube/bouillon cube or salt to taste"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "easpoon thyme"
+            },
+            {
+                "quantity": "2",
+                "unit": "cups",
+                "ingredient": "long grain rice thai jasmine"
+            },
+            {
+                "quantity": "2",
+                "unit": "cups",
+                "ingredient": "hot water or stock/broth"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "up mixed carrots and peas thawed if frozen or fresh"
+            },
+            {
+                "ingredient": "a round of parchment paper that fits inside your cooking pot see step 11"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/akasa-koko-african-corn-pudding/",
+        "category": "western africa",
+        "preparation_time": 0,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "ingredient": "heaped tbsp cornmeal untreated"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "c",
+                "ingredient": "up water"
+            },
+            {
+                "quantity": "3",
+                "ingredient": "pods grains of selim/uda pods"
+            },
+            {
+                "quantity": "5",
+                "unit": "clove",
+                "ingredient": "s"
+            },
+            {
+                "quantity": "200",
+                "unit": "g",
+                "ingredient": "or 1 cup of corn dough"
+            },
+            {
+                "quantity": "3",
+                "unit": "t",
+                "ingredient": "o 5 cups of water"
+            },
+            {
+                "unit": "pinch",
+                "ingredient": "of salt"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "-inch piece of fresh ginger grated"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "easpoon chili powder or to taste"
+            },
+            {
+                "ingredient": "sugar to taste"
+            },
+            {
+                "ingredient": "evaporated milk to serve"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kahk-eid-cookies/",
+        "category": "northern africa",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tablespoon",
+                "ingredient": "ghee clarified butter"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "c",
+                "ingredient": "up all-purpose flour"
+            },
+            {
+                "quantity": "6",
+                "unit": "tablespoon",
+                "ingredient": "s honey"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tablespoon",
+                "ingredient": "sesame seeds toasted"
+            },
+            {
+                "quantity": "2",
+                "unit": "tablespoon",
+                "ingredient": "finely chopped almonds or other nut of choice"
+            },
+            {
+                "quantity": "120",
+                "unit": "g",
+                "ingredient": "roughly 1/2 cup pitted medjool dates other dates can also be used"
+            },
+            {
+                "quantity": "1",
+                "unit": "tablespoon",
+                "ingredient": "butter or ghee"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "easpoon cinnamon powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "kg",
+                "ingredient": "4 cups all purpose flour"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "easpoon baking powder"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "t",
+                "ingredient": "easpoon salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "easpoon cinnamon powder"
+            },
+            {
+                "quantity": "300",
+                "unit": "g",
+                "ingredient": "1 1/3 cups ghee clarified butter"
+            },
+            {
+                "quantity": "50",
+                "unit": "g",
+                "ingredient": "1/2 cup powdered sugar / icing sugar for dusting"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "up milk"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/akara-bean-fritters/",
+        "category": "western africa",
+        "preparation_time": 25,
+        "ingredients": [
+            {
+                "quantity": "11/2",
+                "unit": "cups",
+                "ingredient": "black-eyed peas dry or cowpeas"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "t",
+                "ingredient": "o 1/2 cup water to blend"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "medium onion"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "inch piece of ginger"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "o 1 scotch bonnet pepper or habanero pepper to taste"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "evel teaspoon salt flaked sea salt"
+            },
+            {
+                "quantity": "4",
+                "unit": "cups",
+                "ingredient": "vegetable oil for frying"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/seafood-okra-stew/",
+        "category": "africa",
+        "preparation_time": 20,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "unit": "tablespoon",
+                "ingredient": "s oil use red palm oil/dende oil for an authentic taste"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "arge onion finely chopped"
+            },
+            {
+                "quantity": "2",
+                "unit": "cloves",
+                "ingredient": "of garlic finely diced"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "inch of ginger finely diced"
+            },
+            {
+                "quantity": "1",
+                "unit": "tablespoon",
+                "ingredient": "tomato puree"
+            },
+            {
+                "quantity": "3",
+                "unit": "t",
+                "ingredient": "o 4 medium vine tomatoes"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "scotch bonnet peppers or habanero chiles optional if you like heat"
+            },
+            {
+                "quantity": "20",
+                "unit": "t",
+                "ingredient": "o 24 okra pods"
+            },
+            {
+                "quantity": "2",
+                "unit": "pound",
+                "ingredient": "s of tiger prawns or extra large shrimp"
+            },
+            {
+                "quantity": "1",
+                "unit": "pound",
+                "ingredient": "white fish fillet"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "fillets of smoked fish like cod or mackerel optional"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "fish crayfish or chicken stock seasoning cube or use stock rather than water"
+            },
+            {
+                "ingredient": "water as needed"
+            }
+        ]
+    },
+    {
         "url": "https://www.curiouscuisiniere.com/bobotie/",
         "category": "south african",
         "preparation_time": 10,
@@ -100,6 +2426,434 @@
         ]
     },
     {
+        "url": "https://www.curiouscuisiniere.com/chutney-chicken/",
+        "category": "south african",
+        "preparation_time": 15,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "unit": "c",
+                "ingredient": "hicken leg quarters\t or 8 chicken legs"
+            },
+            {
+                "ingredient": "salt and pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp oil"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "onion diced"
+            },
+            {
+                "quantity": "2",
+                "unit": "cloves",
+                "ingredient": "garlic minced"
+            },
+            {
+                "ingredient": "red chili flakes optional if your chutney isn\u2019t already spicy"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp\tworcestershire sauce"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "peach or mango chutney"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "mayonnaise"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kachumbari/",
+        "category": "africa",
+        "preparation_time": 20,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "medium",
+                "ingredient": "red onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "2",
+                "unit": "large",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "small",
+                "ingredient": "avocado"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "chili"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/african-peanut-soup/",
+        "category": "western africa",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "peanut oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "inch",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "lbs",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "fresh ginger"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "145 oz can",
+                "ingredient": "sweet potatoes"
+            },
+            {
+                "quantity": "4",
+                "unit": "c",
+                "ingredient": "vegetable broth"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tbsp",
+                "ingredient": "diced tomatoes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "peanut butter"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "tomato paste"
+            },
+            {
+                "quantity": "1/4 -1/2",
+                "unit": "tsp",
+                "ingredient": "cayenne"
+            },
+            {
+                "quantity": "2",
+                "unit": "- 4 c",
+                "ingredient": "kale or collard greens"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mbatata-malawian-sweet-potato-cookies/",
+        "category": "africa",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "1/2",
+                "unit": "cup",
+                "ingredient": "mashed sweet potatoes "
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "unbleached all purpose flour"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "brown sugar"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "baking powder"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "raisins"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chakchouka/",
+        "category": "northern africa",
+        "preparation_time": 30,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "red bell pepper"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "green bell pepper"
+            },
+            {
+                "quantity": "3",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/frikkadel-with-sheba-sauce/",
+        "category": "south african",
+        "preparation_time": 40,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "slices",
+                "ingredient": "white bread"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "2",
+                "unit": "lb",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ground beef"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "parsley"
+            },
+            {
+                "quantity": "1",
+                "unit": "pinch",
+                "ingredient": "ground coriander seeds"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tbsp",
+                "ingredient": "turmeric"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "ground cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "egg"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "unsalted butter"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "onions"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/south-african-sweetcorn-bread/",
+        "category": "south african",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "330 g sweet corn kernels thawed if frozen cut off of the cob if fresh divided"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "118 ml milk"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "eggs beaten lightly"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "tbsp 28 g salted butter melted"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "180 g unbleached all purpose flour"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "tbsp cornmeal"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp sugar"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "baking powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/bunny-chow/",
+        "category": "south african",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "lbs",
+                "ingredient": "beef roast"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "inch",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "tb",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "fresh ginger"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "bay leaves"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "green cardamom pods"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "small whole cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cinnamon stick"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "curry powder"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "chilli powder"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "loaves",
+                "ingredient": "garam masala"
+            }
+        ]
+    },
+    {
         "url": "https://www.curiouscuisiniere.com/beef-sosaties/",
         "category": "south african",
         "preparation_time": 25,
@@ -128,6 +2882,814 @@
                 "quantity": "1/4",
                 "unit": "tb",
                 "ingredient": "apricot jam"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/cape-malay-seafood-curry/",
+        "category": "south african",
+        "preparation_time": 55,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "ingredient": "firm white fish fillets"
+            },
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "ingredient": "shrimp"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "inch",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "fresh ginger"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "medium russet potatoes"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "curry powder"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "pinch",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "ground fennel"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "ground coriander seeds"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/boerewors/",
+        "category": "south african",
+        "preparation_time": 120,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "l",
+                "ingredient": "b beef roast top round roast or brisket trimmed of sinew"
+            },
+            {
+                "quantity": "1",
+                "unit": "l",
+                "ingredient": "b fatty pork shoulder/butt or pork neck or belly"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp ground coriander seeds"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground allspice"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "ground nutmeg"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "tsp",
+                "ingredient": "ground cloves"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "malt vinegar"
+            },
+            {
+                "ingredient": "hog casing for fresh sausage"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/african-peanut-stew/",
+        "category": "western africa",
+        "preparation_time": 45,
+        "ingredients": [
+            {
+                "quantity": "1 1/2",
+                "unit": "lbs",
+                "ingredient": "chicken breast"
+            },
+            {
+                "quantity": "1",
+                "unit": "inch",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "fresh ginger"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tbsp",
+                "ingredient": "peanut oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "tomato paste"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "tomato"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "peanut butter"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "red pepper flakes"
+            },
+            {
+                "quantity": "1/4 - 1/2",
+                "unit": "c",
+                "ingredient": "cayenne pepper"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/african-coconut-chicken-curry/",
+        "category": "africa",
+        "preparation_time": 35,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "butter"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "inch",
+                "ingredient": "green pepper"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "lb",
+                "ingredient": "green chilies"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "fresh ginger"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "chicken breast"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "potatoes"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "tomato"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "small lemon"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kushari/",
+        "category": "northern africa",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "small onion minced"
+            },
+            {
+                "quantity": "2",
+                "unit": "g",
+                "ingredient": "arlic cloves minced"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "14 oz can diced tomatoes undrained"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp red wine vinegar"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "t",
+                "ingredient": "bsp cumin"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1/4 - 1/2",
+                "unit": "tsp",
+                "ingredient": "cayenne depending on your heat preference"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "ginger"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "unit": "pinch",
+                "ingredient": "nutmeg"
+            },
+            {
+                "unit": "pinch",
+                "ingredient": "cloves"
+            },
+            {
+                "quantity": "3/4",
+                "unit": "c",
+                "ingredient": "elbow macaroni dry"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "spaghetti dry broken into 1\u201d pieces"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "ingredient": "onion sliced"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp unbleached all-purpose flour"
+            },
+            {
+                "quantity": "1 3/4",
+                "unit": "c",
+                "ingredient": "cooked lentils cooked"
+            },
+            {
+                "quantity": "1 1/4",
+                "unit": "c",
+                "ingredient": "cooked chickpeas cooked"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "c",
+                "ingredient": "cooked white rice"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/chicken-pastilla-moroccan-chicken-pie/",
+        "category": "moroccan",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "unit": "t",
+                "ingredient": "bsp olive oil"
+            },
+            {
+                "quantity": "2",
+                "ingredient": "onions chopped"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp salt"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "black pepper"
+            },
+            {
+                "quantity": "15",
+                "unit": "tsp",
+                "ingredient": "turmeric powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ginger powder"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ground cinnamon"
+            },
+            {
+                "ingredient": "a pinch saffron soaked in lukewarm water optional"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp fresh parsley chopped"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp fresh cilantro chopped"
+            },
+            {
+                "quantity": "15",
+                "unit": "tsp",
+                "ingredient": "gum arabic optional"
+            },
+            {
+                "quantity": "600",
+                "unit": "g",
+                "ingredient": "approx 1 lb 5 oz bone-in chicken"
+            },
+            {
+                "quantity": "1-2",
+                "unit": "cups",
+                "ingredient": "water"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp clarified butter"
+            },
+            {
+                "quantity": "4",
+                "ingredient": "eggs"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp orange blossom water optional"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "up whole almonds"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp clarified butter"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp orange blossom water"
+            },
+            {
+                "quantity": "1",
+                "unit": "t",
+                "ingredient": "bsp powdered sugar"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ground cinnamon"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "9-10",
+                "ingredient": "round warqa sheets palm sized or a bit larger always have a few spare ones in hand in case you need more layers of warqa to seal the pastilla"
+            },
+            {
+                "ingredient": "vegetable oil to oil the folding surface"
+            },
+            {
+                "unit": "c",
+                "ingredient": "larified butter to brush the warqa with"
+            },
+            {
+                "ingredient": "egg white to close off the edges of the warqa"
+            },
+            {
+                "ingredient": "powdered sugar to garnish"
+            },
+            {
+                "unit": "c",
+                "ingredient": "innamon powder to garnish"
+            },
+            {
+                "unit": "t",
+                "ingredient": "oasted almonds to garnish"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/moroccan-orange-olive-salad/",
+        "category": "moroccan",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "ingredient": "oranges peeled and diced"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "c",
+                "ingredient": "up of green olives halved"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "c",
+                "ingredient": "up of olive oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "t",
+                "ingredient": "bsp of paprika powder"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "of cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "of harissa paste optional"
+            },
+            {
+                "ingredient": "salt to taste"
+            },
+            {
+                "ingredient": "handful of chopped cilantro for garnish"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/ras-el-hanout/",
+        "category": "moroccan",
+        "preparation_time": 5,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "turmeric"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "dry ginger"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "nutmeg"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground black pepper"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "cinnamon"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground coriander seeds"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "ground allspice"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tsp",
+                "ingredient": "ground cloves"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/preserved-lemons/",
+        "category": "moroccan",
+        "preparation_time": 10,
+        "ingredients": [
+            {
+                "quantity": "4-5",
+                "unit": "c",
+                "ingredient": "lemons"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/preserved-lemon-chicken-tagine/",
+        "category": "moroccan",
+        "preparation_time": 120,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "ground ginger"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "turmeric"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "tsp",
+                "ingredient": "saffron threads"
+            },
+            {
+                "quantity": "1",
+                "unit": "3-4 lb",
+                "ingredient": "whole chicken"
+            },
+            {
+                "quantity": "1",
+                "unit": "tbsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "3",
+                "unit": "c",
+                "ingredient": "onions"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "1/4 - 1/3",
+                "unit": "tbsp",
+                "ingredient": "green olives"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "preserved lemons"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kefta-mkaouara-moroccan-meatball-tagine/",
+        "category": "moroccan",
+        "preparation_time": 60,
+        "ingredients": [
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "lbs",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "tomatoes"
+            },
+            {
+                "quantity": "11/2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "11/2",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "1/4",
+                "unit": "tb",
+                "ingredient": "black pepper"
+            },
+            {
+                "quantity": "1/8",
+                "unit": "lb",
+                "ingredient": "cayenne powder"
+            },
+            {
+                "quantity": "3",
+                "unit": "tbsp",
+                "ingredient": "fresh parsley"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "ground beef"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "3",
+                "unit": "tsp",
+                "ingredient": "fresh parsley"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "salt"
+            }
+        ]
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/moroccan-salmon-tagine/",
+        "category": "moroccan",
+        "preparation_time": 50,
+        "ingredients": [
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "garlic cloves"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "lemon juice"
+            },
+            {
+                "quantity": "2",
+                "unit": "tbsp",
+                "ingredient": "olive oil"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "fresh parsley"
+            },
+            {
+                "quantity": "2",
+                "unit": "tsp",
+                "ingredient": "paprika"
+            },
+            {
+                "quantity": "1 1/2",
+                "unit": "tsp",
+                "ingredient": "cumin"
+            },
+            {
+                "quantity": "1",
+                "unit": "tsp",
+                "ingredient": "red pepper flakes"
+            },
+            {
+                "quantity": "1/2",
+                "unit": "lb",
+                "ingredient": "salt"
+            },
+            {
+                "quantity": "2/3",
+                "unit": "tsp",
+                "ingredient": "fresh salmon filet"
+            },
+            {
+                "quantity": "1",
+                "unit": "lb",
+                "ingredient": "butter or oil"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "onion"
+            },
+            {
+                "quantity": "1",
+                "unit": "c",
+                "ingredient": "green pepper"
+            },
+            {
+                "quantity": "2",
+                "unit": "c",
+                "ingredient": "carrots"
             }
         ]
     }
