@@ -86,6 +86,14 @@ def get_soup(url):
     else:
         print(f"Failed to fetch {url}: Status code {response.status_code}")
         return None
+    
+def extract_name(soup):
+        breadcrumbs = soup.find("p", {"class": "breadcrumbs"})
+    if breadcrumbs:
+        category = [crumb.get_text().strip() for crumb in breadcrumbs.find_all("a")]
+        if len(category) > 1:
+            return parse_category(category[-1])
+    return "Unknown"
 
 
 def parse_category(category):
@@ -237,6 +245,7 @@ def extract_ingredients(soup):
 def extract_recipe_data(recipe_url):
     soup = get_soup(recipe_url)
     if soup:
+        name = extract_name(soup)
         category = extract_category(soup)
         prep_time = extract_time(soup)
         ingredients = extract_ingredients(soup)
