@@ -13,23 +13,24 @@ function Results() {
     const itemsPerPage = 9;
 
     useEffect(() => {
-        // Read the ranked recipes from the JSON file
-        // setRecipes(rankedRecipes);
-        try {
-            const response = fetch('http://localhost:5000/recipes', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            }).then(response => response.json())
-            .then(data => {
-                console.log(data);
-                setRecipes(data);
-            })
-        } catch (error) {
-            console.error('Error fetching recipes:', error);
-        }
+        fetch('http://localhost:5000/recipes', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        }).then(response => {
+          if (response.status == 400) {
+            // must specify ingredient and cuisine
+            navigate('/');
+            alert("Please specify an ingredient and a cuisine.");
+          }
+
+          return response.json();
+        })
+        .then(data => {
+            setRecipes(data);
+        });
     }, []);
 
     const handleBackClick = () => {

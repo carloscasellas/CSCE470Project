@@ -14,7 +14,13 @@ def get_recipes():
     cultures = body.get("cultures")
     excluded_ingredients = body.get("excludedIngredients")
 
-    # translate ingredients from [{value: "ingredient", rank: 1}] to [{ingredient: 1}]
+    if not ingredients:
+        return jsonify({"error": "No ingredients provided"}), 400
+
+    if not cultures:
+        return jsonify({"error": "No cultures provided"}), 400
+
+    # translate ingredients from [{value: "ingredient", rank: 2}] to [{ingredient: 1}]
     ingredients = {
         ingredient["value"]: ingredient["rank"] for ingredient in ingredients
     }
