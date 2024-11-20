@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import IngredientsForm from './IngredientsForm';
 import CulturalForm from './CulturalForm';
 import ExcludeIngredientsForm from './ExcludeIngredientsForm';
+import './stylesheets/Home.css';
 
 const availableIngredients = require('./availableIngredients.json');
 const availableCultures = require('./availableCultures.json');
@@ -36,13 +37,15 @@ function Home() {
     };
 
     return (
-        <div>
-            <h1>Recipe Search</h1>
+        <div class="home-wrapper">
+            <h1>Cultural Recipe Search</h1>
             <form onSubmit={handleSubmit}>
-                <IngredientsForm ingredientsList={availableIngredients} onChange={handleIngredientsChange} />
-                <CulturalForm culturesList={availableCultures} onChange={handleCulturesChange} />
-                <ExcludeIngredientsForm ingredientsList={availableIngredients} onChange={handleExcludedIngredientsChange} />
-                <button type="submit">Submit All Forms</button>
+                <div class="home-wrapper">
+                    <IngredientsForm ingredientsList={availableIngredients} onChange={handleIngredientsChange} />
+                    <CulturalForm culturesList={availableCultures} onChange={handleCulturesChange} />
+                    <ExcludeIngredientsForm ingredientsList={availableIngredients} onChange={handleExcludedIngredientsChange} />
+                    <button id="submit-forms" type="submit">Submit All Forms</button>
+                </div>
             </form>
         </div>
     );

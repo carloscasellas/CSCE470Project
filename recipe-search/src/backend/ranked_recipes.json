@@ -1,134 +1,327 @@
 [
     {
         "url": "https://www.curiouscuisiniere.com/cape-malay-seafood-curry/",
-        "score": -0.3202563076101743
+        "score": 0.3202563076101743,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/jicama-salsa/",
-        "score": -0.2668802563418119
+        "score": 0.2668802563418119,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/bunny-chow/",
-        "score": -0.10675210253672476
+        "score": 0.10675210253672476,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/bobotie/",
-        "score": -0.043033148291193514
+        "score": 0.043033148291193514,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/african-coconut-chicken-curry/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/african-peanut-soup/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "western africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/african-peanut-stew/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "western africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/agua-fresca-strawberry-water/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/akara-bean-fritters/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "western africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/akasa-koko-african-corn-pudding/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "western africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/baked-chiles-rellenos/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/basic-tomato-salsa-canning/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/beef-sosaties/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/black-bean-and-rice-stuffed-poblanos/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/boerewors/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/calabaza-en-tacha-mexican-candied-pumpkin/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/capirotada-mexican-bread-pudding/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chakchouka/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "northern africa"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chicken-cheese-entomatadas/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chicken-pastilla-moroccan-chicken-pie/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "moroccan"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chicken-tortilla-soup/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chilaquiles-rojos/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chili-lime-margarita/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chorizo-and-potato-gorditas/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chorizo-torta-mexican-sandwich/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/chutney-chicken/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "south african"
     },
     {
         "url": "https://www.curiouscuisiniere.com/corn-tortillas/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/day-of-the-dead-bread/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/enchiladas-potosinas/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/esquites-mexican-street-corn-salad/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/fish-tacos-with-lime-salsa/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/fish-tacos-with-lime-salsa/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "mexican"
     },
     {
         "url": "https://www.curiouscuisiniere.com/frikkadel-with-sheba-sauce/",
-        "score": -0.0
+        "score": 0.0,
+        "category": "south african"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/guacamole/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/hawawshi/",
+        "score": 0.0,
+        "category": "northern africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/homemade-hot-sauce/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/jollof-rice-ghana/",
+        "score": 0.0,
+        "category": "western africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kachumbari/",
+        "score": 0.0,
+        "category": "africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kahk-eid-cookies/",
+        "score": 0.0,
+        "category": "northern africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kefta-mkaouara-moroccan-meatball-tagine/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/kushari/",
+        "score": 0.0,
+        "category": "northern africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mango-paletas/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mbatata-malawian-sweet-potato-cookies/",
+        "score": 0.0,
+        "category": "africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mexican-atole/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/mexican-christmas-eve-salad/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/moroccan-orange-olive-salad/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/moroccan-salmon-tagine/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pork-carnitas/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pork-flautas/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/preserved-lemon-chicken-tagine/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/preserved-lemons/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pumpkin-mole/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/pumpkin-pie-empanadas/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/quick-pozole-blanco/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/ras-el-hanout/",
+        "score": 0.0,
+        "category": "moroccan"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/red-enchilada-sauce/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/refried-beans/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/roast-duck-with-mole-sauce/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/seafood-okra-stew/",
+        "score": 0.0,
+        "category": "africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/south-african-sweetcorn-bread/",
+        "score": 0.0,
+        "category": "south african"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/spanish-rice/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/strawberry-mole-sauce/",
+        "score": 0.0,
+        "category": "mexican"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/tunisian-lablabi/",
+        "score": 0.0,
+        "category": "northern africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/tunisian-spicy-tuna-sandwich/",
+        "score": 0.0,
+        "category": "northern africa"
+    },
+    {
+        "url": "https://www.curiouscuisiniere.com/venison-mole-rojo/",
+        "score": 0.0,
+        "category": "mexican"
     }
 ]

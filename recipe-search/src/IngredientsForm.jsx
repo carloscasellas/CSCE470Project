@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './IngredientsForm.css'; // Import the CSS file
+import './stylesheets/IngredientsForm.css'; // Import the CSS file
 
 function IngredientsForm({ ingredientsList = [], onChange }) {
     const [fields, setFields] = useState([{ value: "", rank: 1 }]);
@@ -35,10 +35,10 @@ function IngredientsForm({ ingredientsList = [], onChange }) {
     const isAddButtonDisabled = fields[fields.length - 1].value === "" || fields.some(field => field.value === "");
 
     return (
-        <div>
+        <div style={{width: "100%", display: "flex", flexDirection: "column", alignItems: "center"}}>
             <h2>Ingredients</h2>
             {fields.map((field, index) => (
-                <div key={index} className="field-container">
+                <div style={{display: "inline"}} key={index} className="field-container">
                     <input
                         type="text"
                         value={field.value}

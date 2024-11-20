@@ -26,8 +26,8 @@ def filter_cuisine(cuisine_list, recipes):
 if __name__ == "__main__":
     exclude_ingredients_list = []
     cuisine_list = ['mexican', 'africa', 'moroccan']   
-    with open('recipes.json', 'r') as file:
+    with open('./src/backend/recipes.json', 'r') as file:
         recipes = json.load(file)
         filtered_recipes = exclude_ingredients(exclude_ingredients_list, filter_cuisine(cuisine_list, recipes))
-        with open('filtered_recipes.json', 'w') as output:
+        with open('./src/backend/filtered_recipes.json', 'w') as output:
             json.dump(filtered_recipes, output, indent=4)

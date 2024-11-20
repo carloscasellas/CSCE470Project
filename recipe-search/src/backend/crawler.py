@@ -88,7 +88,7 @@ def get_soup(url):
         return None
     
 def extract_name(soup):
-        breadcrumbs = soup.find("p", {"class": "breadcrumbs"})
+    breadcrumbs = soup.find("p", {"class": "breadcrumbs"})
     if breadcrumbs:
         category = [crumb.get_text().strip() for crumb in breadcrumbs.find_all("a")]
         if len(category) > 1:
@@ -331,10 +331,10 @@ if __name__ == "__main__":
 
     (scraped_data, all_ingredients) = find_recipe_urls(page_urls)
 
-    with open("recipes.json", "w") as f:
+    with open("./src/backend/recipes.json", "w") as f:
         json.dump(scraped_data, f, indent=4)
 
-    with open("ingredients.json", "w") as f:
+    with open("./src/backend/ingredients.json", "w") as f:
         json.dump(list(all_ingredients), f, indent=4)
 
     print("Scraping completed")

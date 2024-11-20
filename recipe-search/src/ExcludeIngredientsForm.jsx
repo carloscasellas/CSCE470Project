@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ExcludeIngredientsForm.css'; // Import the CSS file
+import './stylesheets/ExcludeIngredientsForm.css'; // Import the CSS file
 
 function ExcludeIngredientsForm({ ingredientsList = [], onChange }) {
     const [fields, setFields] = useState([{ value: "" }]);
@@ -29,10 +29,10 @@ function ExcludeIngredientsForm({ ingredientsList = [], onChange }) {
     const isAddButtonDisabled = fields[fields.length - 1].value === "" || fields.some(field => field.value === "");
 
     return (
-        <div>
+        <div style={{width: "100%", display: "flex", flexDirection: "column", alignItems: "center"}}>
             <h2>Exclude Ingredients</h2>
             {fields.map((field, index) => (
-                <div key={index} className="field-container">
+                <div style={{display: "inline"}} key={index} className="field-container">
                     <input
                         type="text"
                         value={field.value}

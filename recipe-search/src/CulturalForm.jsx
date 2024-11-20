@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './CulturalForm.css'; // Import the CSS file
+import './stylesheets/CulturalForm.css'; // Import the CSS file
 
 function CulturalForm({ culturesList = [], onChange }) {
     const [fields, setFields] = useState([{ value: "" }]);
@@ -29,10 +29,10 @@ function CulturalForm({ culturesList = [], onChange }) {
     const isAddButtonDisabled = fields[fields.length - 1].value === "" || fields.some(field => field.value === "");
 
     return (
-        <div>
+        <div style={{width: "100%", display: "flex", flexDirection: "column", alignItems: "center"}}>
             <h2>Cultures</h2>
             {fields.map((field, index) => (
-                <div key={index} className="field-container">
+                <div style={{display: "inline"}} key={index} className="field-container">
                     <input
                         type="text"
                         value={field.value}
