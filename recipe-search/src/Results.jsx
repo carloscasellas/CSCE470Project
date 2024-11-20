@@ -14,7 +14,22 @@ function Results() {
 
     useEffect(() => {
         // Read the ranked recipes from the JSON file
-        setRecipes(rankedRecipes);
+        // setRecipes(rankedRecipes);
+        try {
+            const response = fetch('http://localhost:5000/recipes', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            }).then(response => response.json())
+            .then(data => {
+                console.log(data);
+                setRecipes(data);
+            })
+        } catch (error) {
+            console.error('Error fetching recipes:', error);
+        }
     }, []);
 
     const handleBackClick = () => {
