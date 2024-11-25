@@ -9,7 +9,7 @@ def train(recipes):
     for recipe in recipes:
         vector = dict()
         for ingredientProps in recipe["ingredients"]:
-            vector[ingredientProps["ingredient"]] = 1
+            vector[ingredientProps["ingredient"]] = 5
         bow.append((recipe["url"], vector, recipe["category"]))
 
 
