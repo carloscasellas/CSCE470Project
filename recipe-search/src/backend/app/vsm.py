@@ -32,6 +32,8 @@ def neighborDistance(A, B):
 
     dotProduct = sum(A.get(k, 0) * B.get(k, 0) for k in set(A) | set(B))
 
+    if magnitudeA == 0 or magnitudeB == 0:
+        return 0
     return dotProduct / (magnitudeA * magnitudeB)
 
 
