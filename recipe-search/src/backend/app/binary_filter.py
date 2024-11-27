@@ -28,18 +28,21 @@ def filter_cuisine(cuisine_list, recipes):
 
 def run(recipes, exclude_ingredients_list, cuisine_list):
     cuisine_list = [cuisine.lower() for cuisine in cuisine_list]
+    filtered_recipes = []
     filtered_recipes = exclude_ingredients(
         exclude_ingredients_list, filter_cuisine(cuisine_list, recipes)
     )
-    # print(f"Filtered recipes: {len(filtered_recipes)}")
+    print(cuisine_list)
+    print(len(filtered_recipes))
+    # print(f"Filtered recipes: {len(filtered_recipes)}"
     return filtered_recipes
 
 
 if __name__ == "__main__":
-    with open("./src/backend/recipes.json", "r") as file:
+    with open("./src/backend/app/recipes.json", "r") as file:
         recipes = json.load(file)
         exclude_ingredients_list = []
         cuisine_list = ["mexican", "africa", "moroccan"]
         filtered_recipes = run(recipes, exclude_ingredients_list, cuisine_list)
-        with open("./src/backend/filtered_recipes.json", "w") as output:
+        with open("./src/backend/app/filtered_recipes.json", "w") as output:
             json.dump(filtered_recipes, output, indent=4)

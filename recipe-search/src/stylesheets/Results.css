@@ -1,3 +1,13 @@
+#pageNumbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap; /* Allows items to wrap to a new line when overflowing */
+    gap: 8px; /* Adds space between items */
+    margin: 8px;
+}
+
 div {
     display: flex;
     flex-direction: column;

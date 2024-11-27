@@ -52,9 +52,9 @@ def run(recipes, query):
 
 if __name__ == "__main__":
     query = {"curry powder": 1, "shrimp": 5, "cinnamon stick": 1}
-    with open("./src/backend/filtered_recipes.json", "r") as file:
+    with open("./src/backend/app/filtered_recipes.json", "r") as file:
         filtered_recipes = json.load(file)
         ranked_recipes = run(filtered_recipes, query)
 
-        with open("./src/backend/ranked_recipes.json", "w") as output:
+        with open("./src/backend/app/ranked_recipes.json", "w") as output:
             json.dump(ranked_recipes, output, indent=4)

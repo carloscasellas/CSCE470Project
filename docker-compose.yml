@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./recipe-search/src/backend
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"
+    environment:
+      - FLASK_ENV=development
+    volumes:
+      - ./recipe-search/src/backend/app:/app/app  # Ensure recipes.json is accessible

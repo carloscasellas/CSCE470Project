@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import rankedRecipes from './backend/ranked_recipes.json'; // Import the JSON file
 import './stylesheets/Results.css';
 
 function Results() {
@@ -10,28 +9,31 @@ function Results() {
 
     const [recipes, setRecipes] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 9;
+    const itemsPerPage = 8;
 
     useEffect(() => {
-        fetch('http://localhost:5000/recipes', {
+        fetch('http://localhost:5001/recipes', {  // Updated to 'localhost:5001'
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
-        }).then(response => {
-          if (response.status == 400) {
-            // must specify ingredient and cuisine
-            navigate('/');
-            alert("Please specify an ingredient and a cuisine.");
-          }
-
-          return response.json();
+        })
+        .then(response => {
+            if (response.status === 400) {
+                navigate('/');
+                alert("Please specify an ingredient and a cuisine.");
+            }
+            return response.json();
         })
         .then(data => {
-            setRecipes(data);
+            setRecipes(data.recipes);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Failed to fetch data. Please try again later.');
         });
-    }, []);
+    }, [formData, navigate]);
 
     const handleBackClick = () => {
         navigate('/');
@@ -72,9 +74,9 @@ function Results() {
                     </li>
                 ))}
             </ul>
-            <div style={{display: "inline", marginBottom: "16px"}}>
+            <div id="pageNumbers">
                 {Array.from({ length: totalPages }, (_, index) => (
-                    <button style={{margin:"0 2px"}}
+                    <button
                         key={index}
                         onClick={() => handlePageChange(index + 1)}
                         disabled={currentPage === index + 1}

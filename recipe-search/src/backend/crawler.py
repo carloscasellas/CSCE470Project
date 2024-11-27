@@ -331,10 +331,10 @@ if __name__ == "__main__":
 
     (scraped_data, all_ingredients) = find_recipe_urls(page_urls)
 
-    with open("./src/backend/recipes.json", "w") as f:
+    with open("./src/backend/app/recipes.json", "w") as f:
         json.dump(scraped_data, f, indent=4)
 
-    with open("./src/backend/ingredients.json", "w") as f:
+    with open("./src/backend/app/ingredients.json", "w") as f:
         json.dump(list(all_ingredients), f, indent=4)
 
     print("Scraping completed")
