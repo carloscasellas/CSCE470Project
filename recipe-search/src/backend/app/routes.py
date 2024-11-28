@@ -35,7 +35,7 @@ def get_recipes():
         with open("./app/recipes.json", "r") as f:
             recipes = json.load(f)
             logging.info(f"Loaded {len(recipes)} recipes.")
-
+            
         # Filter recipes
         filtered_recipes = filter_run(recipes, excluded_ingredients, cultures)
         logging.info(f"Filtered down to {len(filtered_recipes)} recipes.")
